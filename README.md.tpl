@@ -7,6 +7,11 @@ I'm Hare Sudhan, a Cybersecurity Grad Student at University of Colorado, Boulder
 - [{{.Repo.Name}}]({{.Repo.URL}}) - {{.Repo.Description}} ({{humanize .OccurredAt}})
 {{- end}}
 
+#### 🙇 Recent Mentions
+
+1. [Blockchain Goes to College](https://www.coindesk.com/blockchain-goes-to-college)
+2. [Breaking into infosec and learning new skills with Atomic Red Team](https://redcanary.com/blog/breaking-into-infosec-atomic-red-team/) - [Youtube Video](https://www.youtube.com/watch?v=t0rwyuPoZ-E)
+
 #### 📫 How to reach me
 
 [![Twitter](https://img.shields.io/badge/-0x6cdev-blue?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/0x6cdev)
