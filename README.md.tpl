@@ -7,16 +7,6 @@ I'm Hare Sudhan, a Cybersecurity Grad Student at University of Colorado, Boulder
 - [{{.Repo.Name}}]({{.Repo.URL}}) - {{.Repo.Description}} ({{humanize .OccurredAt}})
 {{- end}}
 
-#### 🌱 My latest projects
-{{range recentRepos 5}}
-- [{{.Name}}]({{.URL}}) - {{.Description}}
-{{- end}}
-
-#### 🔭 Latest releases I've contributed to
-{{range recentReleases 5}}
-- [{{.Name}}]({{.URL}}) ([{{.LastRelease.TagName}}]({{.LastRelease.URL}}), {{humanize .LastRelease.PublishedAt}}) - {{.Description}}
-{{- end}}
-
 #### 📫 How to reach me
 
 [![Twitter](https://img.shields.io/badge/-0x6cdev-blue?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/0x6cdev)
