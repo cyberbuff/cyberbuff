@@ -5,10 +5,15 @@ I'm Hare Sudhan, a Cybersecurity Grad Student at University of Colorado, Boulder
 #### 👷 Check out what I'm currently working on
 
 - [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE&#39;s ATT&amp;CK. (3 days ago)
-- [haresudhan/Cryptography](https://github.com/haresudhan/Cryptography) -  (1 month ago)
-- [haresudhan/CTFs](https://github.com/haresudhan/CTFs) -  (1 month ago)
+- [haresudhan/Cryptography](https://github.com/haresudhan/Cryptography) - Scripts for the Crypto Assignments. (1 month ago)
+- [haresudhan/CTFs](https://github.com/haresudhan/CTFs) - Contains answers to certain CTFs such as Cryptopals, OverTheWire, etc.  (1 month ago)
 - [haresudhan/TheAtomicPlaybook](https://github.com/haresudhan/TheAtomicPlaybook) - The Atomic Playbook contains TTPs from the MITRE ATT&amp;CK framework mapped to the tests in the Atomic Red Team. It serves as a single resource to know about the tests, it&#39;s execution, detection and defense techniques from MITRE Shield. (1 month ago)
-- [haresudhan/ART-Utils](https://github.com/haresudhan/ART-Utils) -  (1 month ago)
+- [haresudhan/ART-Utils](https://github.com/haresudhan/ART-Utils) - Contains scripts that can be used along with Atomic Red Team. (1 month ago)
+
+#### 🙇 Recent Mentions
+
+1. [Blockchain Goes to College](https://www.coindesk.com/blockchain-goes-to-college)
+2. [Breaking into infosec and learning new skills with Atomic Red Team](https://redcanary.com/blog/breaking-into-infosec-atomic-red-team/) - [Youtube Video](https://www.youtube.com/watch?v=t0rwyuPoZ-E)
 
 #### 📫 How to reach me
 
