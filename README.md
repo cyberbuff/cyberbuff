@@ -14,6 +14,7 @@ I'm Hare Sudhan, a Cybersecurity Grad Student at University of Colorado, Boulder
 
 1. [Blockchain Goes to College](https://www.coindesk.com/blockchain-goes-to-college)
 2. [Breaking into infosec and learning new skills with Atomic Red Team](https://redcanary.com/blog/breaking-into-infosec-atomic-red-team/) - [Youtube Video](https://www.youtube.com/watch?v=t0rwyuPoZ-E)
+3. [T9Hacks 2020 winners announced](https://www.colorado.edu/atlas/2020/02/18/t9hacks-2020-winners-announced)
 
 #### 📫 How to reach me
 
