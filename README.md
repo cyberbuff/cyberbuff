@@ -4,7 +4,7 @@ I'm Hare Sudhan, a Cybersecurity Grad Student at University of Colorado, Boulder
 
 #### 👷 Check out what I'm currently working on
 
-- [haresudhan/GenericSwiftUI](https://github.com/haresudhan/GenericSwiftUI) - SwiftUI components for Generic Table View (1 day ago)
+- [haresudhan/GenericSwiftUI](https://github.com/haresudhan/GenericSwiftUI) - SwiftUI components for Generic Table View (2 days ago)
 - [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE&#39;s ATT&amp;CK. (1 week ago)
 - [haresudhan/Cryptography](https://github.com/haresudhan/Cryptography) - Scripts for the Crypto Assignments. (1 month ago)
 - [haresudhan/CTFs](https://github.com/haresudhan/CTFs) - Contains answers to certain CTFs such as Cryptopals, OverTheWire, etc.  (1 month ago)
