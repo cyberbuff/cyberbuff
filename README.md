@@ -4,11 +4,11 @@ I'm Hare Sudhan, a Cybersecurity Grad Student at University of Colorado, Boulder
 
 #### 👷 Check out what I'm currently working on
 
-- [haresudhan/Exfil.js](https://github.com/haresudhan/Exfil.js) - Contains atomic tests for Web Exfiltration using JavaScript (3 weeks ago)
+- [cyb3rbuff/TheAtomicPlaybook](https://github.com/cyb3rbuff/TheAtomicPlaybook) - The Atomic Playbook contains TTPs from the MITRE ATT&amp;CK framework mapped to the tests in the Atomic Red Team. It serves as a single resource to know about the tests, it&#39;s execution, detection and defense techniques from MITRE Shield. (1 day ago)
+- [cyb3rbuff/Exfil.js](https://github.com/cyb3rbuff/Exfil.js) - Contains atomic tests for Web Exfiltration using JavaScript (4 weeks ago)
 - [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE&#39;s ATT&amp;CK. (1 month ago)
-- [haresudhan/GenericSwiftUI](https://github.com/haresudhan/GenericSwiftUI) - SwiftUI components for Generic Table View (1 month ago)
-- [haresudhan/CTFs](https://github.com/haresudhan/CTFs) - Contains answers to certain CTFs such as Cryptopals, OverTheWire, etc.  (3 months ago)
-- [haresudhan/Cryptography](https://github.com/haresudhan/Cryptography) - Scripts for the Crypto Assignments. (3 months ago)
+- [cyb3rbuff/GenericSwiftUI](https://github.com/cyb3rbuff/GenericSwiftUI) - SwiftUI components for Generic Table View (1 month ago)
+- [cyb3rbuff/CTFs](https://github.com/cyb3rbuff/CTFs) - Contains answers to certain CTFs such as Cryptopals, OverTheWire, etc.  (3 months ago)
 
 #### 🙇 Recent Mentions
 
