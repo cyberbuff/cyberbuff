@@ -18,7 +18,7 @@ I'm Hare, a Cybersecurity Grad Student at University of Colorado, Boulder.
 
 #### 📫 How to reach me
 
-[![Twitter](https://img.shields.io/badge/-0x6cdev-blue?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/0x6cdev)
+[![Twitter](https://img.shields.io/badge/-0x6cdev-blue?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/cyb3rbuff)
 [![Linkedin](https://img.shields.io/badge/-haresudhan-blue?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/haresudhan)
 [![E-Mail](https://img.shields.io/badge/email-reveal-2a8?style=flat-square&logo=protonmail&logoColor=white)](https://mailhide.io/e/woqKL)
 [![Website](https://img.shields.io/badge/-0x6c.dev-blue?style=flat-square&logo=element&logoColor=white)](https://maxtern.dev)
