@@ -4,7 +4,7 @@ I'm Hare, a Cybersecurity Grad Student at University of Colorado, Boulder.
 
 #### 👷 Check out what I'm currently working on
 
-- [cyb3rbuff/TheAtomicPlaybook](https://github.com/cyb3rbuff/TheAtomicPlaybook) - The Atomic Playbook contains TTPs from the MITRE ATT&amp;CK framework mapped to the tests in the Atomic Red Team. It serves as a single resource to know about the tests, it&#39;s execution, detection and defense techniques from MITRE Shield. (1 day ago)
+- [cyb3rbuff/TheAtomicPlaybook](https://github.com/cyb3rbuff/TheAtomicPlaybook) - The Atomic Playbook contains TTPs from the MITRE ATT&amp;CK framework mapped to the tests in the Atomic Red Team. It serves as a single resource to know about the tests, it&#39;s execution, detection and defense techniques from MITRE Shield. (2 days ago)
 - [cyb3rbuff/SenseNet-Oran](https://github.com/cyb3rbuff/SenseNet-Oran) - Powder Profile for the SenseNet Project.  (1 month ago)
 - [cyb3rbuff/srslte-ric](https://github.com/cyb3rbuff/srslte-ric) - Clone from https://gitlab.flux.utah.edu/powderrenewpublic/srslte-ric for the Sensenet Project (1 month ago)
 - [cyb3rbuff/Exfil.js](https://github.com/cyb3rbuff/Exfil.js) - Contains atomic tests for Web Exfiltration using JavaScript (2 months ago)
