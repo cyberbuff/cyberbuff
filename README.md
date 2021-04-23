@@ -4,7 +4,7 @@ I'm Hare, a Cybersecurity Grad Student at University of Colorado, Boulder.
 
 #### 👷 Check out what I'm currently working on
 
-- [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE&#39;s ATT&amp;CK. (3 days ago)
+- [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE&#39;s ATT&amp;CK. (4 days ago)
 - [cyberbuff/TheAtomicPlaybook](https://github.com/cyberbuff/TheAtomicPlaybook) - The Atomic Playbook contains TTPs from the MITRE ATT&amp;CK framework mapped to the tests in the Atomic Red Team. It serves as a single resource to know about the tests, it&#39;s execution, detection and defense techniques from MITRE Shield. (1 month ago)
 - [cyberbuff/SenseNet-Oran](https://github.com/cyberbuff/SenseNet-Oran) - Powder Profile for the SenseNet Project.  (2 months ago)
 - [cyberbuff/srslte-ric](https://github.com/cyberbuff/srslte-ric) - Clone from https://gitlab.flux.utah.edu/powderrenewpublic/srslte-ric for the Sensenet Project (2 months ago)
