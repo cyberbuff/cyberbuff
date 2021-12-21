@@ -8,7 +8,6 @@ I'm Hare, a Cybersecurity Grad Student at University of Colorado, Boulder.
 - [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE&#39;s ATT&amp;CK. (8 months ago)
 - [cyberbuff/SenseNet-Oran](https://github.com/cyberbuff/SenseNet-Oran) - Powder Profile for the SenseNet Project.  (10 months ago)
 - [cyberbuff/srslte-ric](https://github.com/cyberbuff/srslte-ric) - Clone from https://gitlab.flux.utah.edu/powderrenewpublic/srslte-ric for the Sensenet Project (10 months ago)
-- [cyberbuff/Exfil.js](https://github.com/cyberbuff/Exfil.js) - Contains atomic tests for Web Exfiltration using JavaScript (1 year ago)
 
 #### 🙇 Recent Mentions
 
