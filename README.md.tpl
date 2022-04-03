@@ -1,6 +1,6 @@
 # Hi there 👋
 
-I'm Hare, a Cybersecurity Grad Student at University of Colorado, Boulder. 
+I'm Hare, a Software Security Engineer working at Walmart. 
 
 #### 👷 Check out what I'm currently working on
 {{range recentContributions 5}}
