@@ -28,4 +28,4 @@ I'm Hare, a Software Security Engineer working at Walmart.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<img src="https://github-readme-stats.vercel.app/api?username=cyberbuff&show_icons=true&count_private=true&theme=dark">
+<img src="https://github-readme-stats.vercel.app/api?username=cyberbuff&show_icons=true&count_private=true&theme=dracula&custom_title=Github%20Stats&title_color=blue&hide_border=true">
