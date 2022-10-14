@@ -4,10 +4,13 @@ I'm Hare, a Software Security Engineer working at Walmart.
 
 #### 👷 Check out what I'm currently working on
 
+- [mattermost/mattermost-webapp](https://github.com/mattermost/mattermost-webapp) - Webapp of Mattermost server: https://github.com/mattermost/mattermost-server (today)
 - [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE&#39;s ATT&amp;CK. (3 weeks ago)
 - [cyberbuff/ARTYamlParser](https://github.com/cyberbuff/ARTYamlParser) - Parses Atomic Test from YAML (6 months ago)
 - [redcanaryco/invoke-atomicredteam](https://github.com/redcanaryco/invoke-atomicredteam) - Invoke-AtomicRedTeam is a PowerShell module to execute tests as defined in the [atomics folder](https://github.com/redcanaryco/atomic-red-team/tree/master/atomics) of Red Canary&#39;s Atomic Red Team project. (6 months ago)
 - [cyberbuff/TheAtomicPlaybook](https://github.com/cyberbuff/TheAtomicPlaybook) - The Atomic Playbook contains TTPs from the MITRE ATT&amp;CK framework mapped to the tests in the Atomic Red Team. It serves as a single resource to know about the tests, it&#39;s execution, detection and defense techniques from MITRE Shield. (1 year ago)
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #### 🙇 Recent Mentions
 
@@ -15,6 +18,7 @@ I'm Hare, a Software Security Engineer working at Walmart.
 2. [Breaking into infosec and learning new skills with Atomic Red Team](https://redcanary.com/blog/breaking-into-infosec-atomic-red-team/) - [Youtube Video](https://www.youtube.com/watch?v=t0rwyuPoZ-E)
 3. [T9Hacks 2020 winners announced](https://www.colorado.edu/atlas/2020/02/18/t9hacks-2020-winners-announced)
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #### 📫 How to reach me
 
 [![Twitter](https://img.shields.io/badge/-cyb3rbuff-blue?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/cyb3rbuff)
@@ -22,7 +26,6 @@ I'm Hare, a Software Security Engineer working at Walmart.
 [![E-Mail](https://img.shields.io/badge/email-reveal-2a8?style=flat-square&logo=protonmail&logoColor=white)](https://mailhide.io/e/woqKL)
 [![Website](https://img.shields.io/badge/-cyberbuff.dev-blue?style=flat-square&logo=element&logoColor=white)](https://cyberbuff.dev)
 
-#### 🙇 Credits
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Checkout [markscribe](https://github.com/muesli/markscribe)
-and [readme-scribe](https://github.com/muesli/readme-scribe) by [@mueslix](https://twitter.com/mueslix)!
+<img src="https://github-readme-stats.vercel.app/api?username=cyberbuff&show_icons=true&count_private=true&theme=dark">
