@@ -20,7 +20,6 @@ I'm Hare, a Software Security Engineer working at Walmart.
 
 [![Twitter](https://img.shields.io/badge/-cyb3rbuff-blue?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/cyb3rbuff)
 [![Linkedin](https://img.shields.io/badge/-haresudhan-blue?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/haresudhan)
-[![E-Mail](https://img.shields.io/badge/email-reveal-2a8?style=flat-square&logo=protonmail&logoColor=white)](https://mailhide.io/e/woqKL)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
