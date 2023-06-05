@@ -4,7 +4,7 @@ I'm Hare Sudhan, a Software Security Engineer working at Walmart.
 
 #### 👷 Check out what I'm currently working on
 
-- [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE&#39;s ATT&amp;CK. (3 days ago)
+- [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE&#39;s ATT&amp;CK. (4 days ago)
 - [redcanaryco/invoke-atomicredteam](https://github.com/redcanaryco/invoke-atomicredteam) - Invoke-AtomicRedTeam is a PowerShell module to execute tests as defined in the [atomics folder](https://github.com/redcanaryco/atomic-red-team/tree/master/atomics) of Red Canary&#39;s Atomic Red Team project. (1 week ago)
 - [cyberbuff/atomicredteam-docker](https://github.com/cyberbuff/atomicredteam-docker) - This repo builds and pushes docker images for invoke-atomicredteam. (1 week ago)
 - [cyberbuff/TheAtomicPlaybook](https://github.com/cyberbuff/TheAtomicPlaybook) - The Atomic Playbook contains TTPs from the MITRE ATT&amp;CK framework mapped to the tests in the Atomic Red Team. It serves as a single resource to know about the tests, it&#39;s execution, detection and defense techniques from MITRE Shield. (3 weeks ago)
