@@ -4,7 +4,7 @@ I'm Hare Sudhan, a Software Security Engineer working at Walmart.
 
 #### 👷 Check out what I'm currently working on
 
-- [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE&#39;s ATT&amp;CK. (today)
+- [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE&#39;s ATT&amp;CK. (1 day ago)
 - [cyberbuff/atomicredteam-docker](https://github.com/cyberbuff/atomicredteam-docker) - This repo builds and pushes docker images for invoke-atomicredteam. (3 weeks ago)
 - [cyberbuff/atomicredteam-streamlit](https://github.com/cyberbuff/atomicredteam-streamlit) - Helper web app for the Atomic Red Team project (3 weeks ago)
 - [magicsword-io/LOLDrivers](https://github.com/magicsword-io/LOLDrivers) - Living Off The Land Drivers (1 month ago)
