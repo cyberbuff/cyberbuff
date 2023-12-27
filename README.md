@@ -5,10 +5,10 @@ I'm Hare Sudhan, a Software Security Engineer working at Walmart.
 #### 👷 Check out what I'm currently working on
 
 - [redcanaryco/invoke-atomicredteam](https://github.com/redcanaryco/invoke-atomicredteam) - Invoke-AtomicRedTeam is a PowerShell module to execute tests as defined in the [atomics folder](https://github.com/redcanaryco/atomic-red-team/tree/master/atomics) of Red Canary&#39;s Atomic Red Team project. (2 days ago)
-- [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE&#39;s ATT&amp;CK. (4 days ago)
+- [cyberbuff/atomic-red-team-docs](https://github.com/cyberbuff/atomic-red-team-docs) -  (4 days ago)
+- [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE&#39;s ATT&amp;CK. (5 days ago)
 - [cyberbuff/atomicredteam-streamlit](https://github.com/cyberbuff/atomicredteam-streamlit) - Helper web app for the Atomic Red Team project (3 months ago)
 - [magicsword-io/LOLDrivers](https://github.com/magicsword-io/LOLDrivers) - Living Off The Land Drivers (3 months ago)
-- [infosecB/LOOBins](https://github.com/infosecB/LOOBins) - Living Off the Orchard: macOS Binaries (LOOBins) is designed to provide detailed information on various built-in &#34;living off the land&#34; macOS binaries and how they can be used by threat actors for malicious purposes.  (3 months ago)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
