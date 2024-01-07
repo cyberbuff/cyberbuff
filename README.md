@@ -4,7 +4,7 @@ I'm Hare Sudhan, a Software Security Engineer working at Walmart.
 
 #### 👷 Check out what I'm currently working on
 
-- [cyberbuff/atomic-red-team-docs](https://github.com/cyberbuff/atomic-red-team-docs) -  (2 days ago)
+- [cyberbuff/atomic-red-team-docs](https://github.com/cyberbuff/atomic-red-team-docs) -  (3 days ago)
 - [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE&#39;s ATT&amp;CK. (1 week ago)
 - [redcanaryco/invoke-atomicredteam](https://github.com/redcanaryco/invoke-atomicredteam) - Invoke-AtomicRedTeam is a PowerShell module to execute tests as defined in the [atomics folder](https://github.com/redcanaryco/atomic-red-team/tree/master/atomics) of Red Canary&#39;s Atomic Red Team project. (1 week ago)
 - [cyberbuff/atomicredteam-streamlit](https://github.com/cyberbuff/atomicredteam-streamlit) - Helper web app for the Atomic Red Team project (3 months ago)
