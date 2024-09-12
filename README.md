@@ -4,7 +4,7 @@ I'm Hare Sudhan, a Software Security Engineer working at Walmart.
 
 #### 👷 Check out what I'm currently working on
 
-- [magicsword-io/LOLRMM](https://github.com/magicsword-io/LOLRMM) - LotL RMM (6 days ago)
+- [magicsword-io/LOLRMM](https://github.com/magicsword-io/LOLRMM) - LotL RMM (1 week ago)
 - [cyberbuff/atomic-red-team-docs](https://github.com/cyberbuff/atomic-red-team-docs) - New website for atomic red team (2 weeks ago)
 - [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE&#39;s ATT&amp;CK. (1 month ago)
 - [cyberbuff/atomic-pipeline](https://github.com/cyberbuff/atomic-pipeline) -  (1 month ago)
