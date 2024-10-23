@@ -8,7 +8,7 @@ I'm Hare Sudhan, a Software Security Engineer working at Walmart.
 - [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE&#39;s ATT&amp;CK. (1 week ago)
 - [magicsword-io/LOLRMM](https://github.com/magicsword-io/LOLRMM) - LotL RMM (3 weeks ago)
 - [redcanaryco/invoke-atomicredteam](https://github.com/redcanaryco/invoke-atomicredteam) - Invoke-AtomicRedTeam is a PowerShell module to execute tests as defined in the [atomics folder](https://github.com/redcanaryco/atomic-red-team/tree/master/atomics) of Red Canary&#39;s Atomic Red Team project. (3 months ago)
-- [hbakri/django-ninja-crud](https://github.com/hbakri/django-ninja-crud) - 🧩 Modular, composable API views for scalable Django Ninja projects, with built-in CRUD. (7 months ago)
+- [hbakri/django-ninja-crud](https://github.com/hbakri/django-ninja-crud) - 🧩 Modular, composable API views for scalable Django Ninja projects, with built-in CRUD. (8 months ago)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
