@@ -4,7 +4,7 @@ I'm Hare Sudhan, a Software Security Engineer working at Walmart.
 
 #### 👷 Check out what I'm currently working on
 
-- [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE&#39;s ATT&amp;CK. (2 days ago)
+- [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE&#39;s ATT&amp;CK. (3 days ago)
 - [infosecB/LOOBins](https://github.com/infosecB/LOOBins) - Living Off the Orchard: macOS Binaries (LOOBins) is designed to provide detailed information on various built-in &#34;living off the land&#34; macOS binaries and how they can be used by threat actors for malicious purposes.  (2 weeks ago)
 - [cyberbuff/atomic-pipeline](https://github.com/cyberbuff/atomic-pipeline) -  (1 month ago)
 - [magicsword-io/LOLRMM](https://github.com/magicsword-io/LOLRMM) - LotL RMM (2 months ago)
