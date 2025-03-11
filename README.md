@@ -8,7 +8,7 @@ I'm Hare Sudhan, a Software Security Engineer working at Walmart.
 - [cyberbuff/ludus-atomic-red-team](https://github.com/cyberbuff/ludus-atomic-red-team) - This repository helps you set up an automated Atomic Red Team testing environment using Ludus. The environment allows you to safely execute and test atomic tests while having the ability to revert machines back to clean snapshots. (1 day ago)
 - [redcanaryco/invoke-atomicredteam](https://github.com/redcanaryco/invoke-atomicredteam) - Invoke-AtomicRedTeam is a PowerShell module to execute tests as defined in the [atomics folder](https://github.com/redcanaryco/atomic-red-team/tree/master/atomics) of Red Canary&#39;s Atomic Red Team project. (1 week ago)
 - [wietze/Invoke-ArgFuscator](https://github.com/wietze/Invoke-ArgFuscator) - Invoke-ArgFuscator is an open-source, cross-platform PowerShell module that helps generate obfuscated command-lines for common system-native executables. (3 weeks ago)
-- [cyberbuff/run-anywhere](https://github.com/cyberbuff/run-anywhere) -  (3 weeks ago)
+- [infosecB/LOOBins](https://github.com/infosecB/LOOBins) - Living Off the Orchard: macOS Binaries (LOOBins) is designed to provide detailed information on various built-in &#34;living off the land&#34; macOS binaries and how they can be used by threat actors for malicious purposes.  (3 months ago)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
