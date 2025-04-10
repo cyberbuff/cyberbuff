@@ -4,8 +4,8 @@ I'm Hare Sudhan, a Software Security Engineer working at Walmart.
 
 #### 👷 Check out what I'm currently working on
 
-- [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE&#39;s ATT&amp;CK. (2 weeks ago)
-- [magicsword-io/LOLRMM](https://github.com/magicsword-io/LOLRMM) - LotL RMM (2 weeks ago)
+- [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE&#39;s ATT&amp;CK. (3 weeks ago)
+- [magicsword-io/LOLRMM](https://github.com/magicsword-io/LOLRMM) - LotL RMM (3 weeks ago)
 - [cyberbuff/atomicredteam-streamlit](https://github.com/cyberbuff/atomicredteam-streamlit) - Helper web app for the Atomic Red Team project (3 weeks ago)
 - [cyberbuff/ludus-atomic-red-team](https://github.com/cyberbuff/ludus-atomic-red-team) - This repository helps you set up an automated Atomic Red Team testing environment using Ludus. The environment allows you to safely execute and test atomic tests while having the ability to revert machines back to clean snapshots. (3 weeks ago)
 - [redcanaryco/invoke-atomicredteam](https://github.com/redcanaryco/invoke-atomicredteam) - Invoke-AtomicRedTeam is a PowerShell module to execute tests as defined in the [atomics folder](https://github.com/redcanaryco/atomic-red-team/tree/master/atomics) of Red Canary&#39;s Atomic Red Team project. (1 month ago)
