@@ -4,7 +4,7 @@ I'm Hare Sudhan, a Software Security Engineer working at Walmart.
 
 #### 👷 Check out what I'm currently working on
 
-- [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE&#39;s ATT&amp;CK. (2 days ago)
+- [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE&#39;s ATT&amp;CK. (3 days ago)
 - [cyberbuff/TheAtomicPlaybook](https://github.com/cyberbuff/TheAtomicPlaybook) - The Atomic Playbook contains TTPs from the MITRE ATT&amp;CK framework mapped to the tests in the Atomic Red Team. It serves as a single resource to know about the tests, it&#39;s execution, detection and defense techniques from MITRE Shield. (1 week ago)
 - [cyberbuff/ludus-atomic-red-team](https://github.com/cyberbuff/ludus-atomic-red-team) - This repository helps you set up an automated Atomic Red Team testing environment using Ludus. The environment allows you to safely execute and test atomic tests while having the ability to revert machines back to clean snapshots. (2 months ago)
 - [magicsword-io/LOLRMM](https://github.com/magicsword-io/LOLRMM) - LotL RMM (3 months ago)
