@@ -4,11 +4,11 @@ I'm Hare Sudhan, a Software Security Engineer working at Walmart.
 
 #### 👷 Check out what I'm currently working on
 
-- [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE&#39;s ATT&amp;CK. (3 weeks ago)
+- [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE&#39;s ATT&amp;CK. (1 day ago)
+- [cyberbuff/atomic-red-team-mcp](https://github.com/cyberbuff/atomic-red-team-mcp) - MCP server for Atomic Red Team (1 day ago)
 - [redcanaryco/invoke-atomicredteam](https://github.com/redcanaryco/invoke-atomicredteam) - Invoke-AtomicRedTeam is a PowerShell module to execute tests as defined in the [atomics folder](https://github.com/redcanaryco/atomic-red-team/tree/master/atomics) of Red Canary&#39;s Atomic Red Team project. (3 weeks ago)
 - [cyberbuff/TheAtomicPlaybook](https://github.com/cyberbuff/TheAtomicPlaybook) - The Atomic Playbook contains TTPs from the MITRE ATT&amp;CK framework mapped to the tests in the Atomic Red Team. It serves as a single resource to know about the tests, it&#39;s execution, detection and defense techniques from MITRE Shield. (3 months ago)
 - [cyberbuff/ludus-atomic-red-team](https://github.com/cyberbuff/ludus-atomic-red-team) - This repository helps you set up an automated Atomic Red Team testing environment using Ludus. The environment allows you to safely execute and test atomic tests while having the ability to revert machines back to clean snapshots. (5 months ago)
-- [magicsword-io/LOLRMM](https://github.com/magicsword-io/LOLRMM) - LotL RMM (6 months ago)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
