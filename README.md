@@ -4,7 +4,7 @@ I'm Hare Sudhan, a Software/Security Engineer specializing in developing applica
 
 #### 👷 Check out what I'm currently working on
 
-- [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE&#39;s ATT&amp;CK. (1 week ago)
+- [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE&#39;s ATT&amp;CK. (today)
 - [cyberbuff/atomic-red-team-mcp](https://github.com/cyberbuff/atomic-red-team-mcp) - MCP server for Atomic Red Team (3 weeks ago)
 - [badsectorlabs/ludus_elastic_agent](https://github.com/badsectorlabs/ludus_elastic_agent) - An Ansible role that installs an Elastic Agent on a Windows, Debian, or Ubuntu system (3 months ago)
 - [cyberbuff/LOAS](https://github.com/cyberbuff/LOAS) - Living off the Orchard: Apple Script  (3 months ago)
