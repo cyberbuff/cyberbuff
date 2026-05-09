@@ -4,7 +4,7 @@ I'm Hare Sudhan, a Software/Security Engineer specializing in developing applica
 
 #### 👷 Check out what I'm currently working on
 
-- [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE&#39;s ATT&amp;CK. (1 day ago)
+- [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE&#39;s ATT&amp;CK. (2 days ago)
 - [cyberbuff/LOAS](https://github.com/cyberbuff/LOAS) - Living off the Orchard: Apple Script  (2 weeks ago)
 - [cyberbuff/orkl](https://github.com/cyberbuff/orkl) - Go client for the ORKL cyber threat intelligence library (2 weeks ago)
 - [cyberbuff/atomic-red-team-mcp](https://github.com/cyberbuff/atomic-red-team-mcp) - MCP server for Atomic Red Team (1 month ago)
