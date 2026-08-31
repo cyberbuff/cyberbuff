@@ -22,15 +22,14 @@ focus is cyber deception research, talks, and more.
 - [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE's ATT&CK. (1 week ago)
 - [cyberbuff/LOAS](https://github.com/cyberbuff/LOAS) - Living Off the Orchard: Apple Script is a library of AppleScript and JXA tests mapped to the MITRE ATT&CK® framework (1 week ago)
 - [cyberbuff/atomic-red-team-mcp](https://github.com/cyberbuff/atomic-red-team-mcp) - MCP server for Atomic Red Team (1 week ago)
-    <!-- RECENT-PROJECTS:END -->
+<!-- RECENT-PROJECTS:END -->
 
 ---
 
 #### 📜 Recent writing
 
-<!-- BLOG-POST-LIST:START -->- [Living off the Orchard: AppleScript](https://cyberbuff.dev/blog/loas/) - Offensive security testing framework for macOS that provides MITRE ATT&amp;CK-mapped atomic tests using AppleScript and JXA techniques across multiple execution methods. (Nov 27, 2025)
-- [Atomic Red Team MCP](https://cyberbuff.dev/blog/atomic-red-team-mcp/) - Use Atomic Red Team MCP server  to create, query, and execute atomics from Atomic Red Team (Oct 31, 2025)
-<!-- BLOG-POST-LIST:END -->
+- [Living off the Orchard: AppleScript](https://cyberbuff.dev/blog/loas/) - Offensive security testing framework for macOS that provides MITRE ATT&CK-mapped atomic tests using AppleScript and JXA techniques across multiple execution methods. (Nov 27, 2025)
+- [Atomic Red Team MCP](https://cyberbuff.dev/blog/atomic-red-team-mcp/) - Use Atomic Red Team MCP server to create, query, and execute atomics from Atomic Red Team (Oct 31, 2025)
 
 ---
 

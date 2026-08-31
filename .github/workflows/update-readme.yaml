@@ -142,20 +142,47 @@ jobs:
           ' README.md > "${tmp}"
           mv "${tmp}" README.md
 
-      - uses: gautamkrishnar/blog-post-workflow@f177491c77670f150ab4e9b9890254d8eba4164b # 1.9.7
-        with:
-          feed_list: "https://cyberbuff.dev/rss.xml"
-          max_post_count: 5
-          date_format: "mmm d, yyyy"
-          template: "- [$title]($url) - $description ($date)$newline"
-          description_max_length: 180
-          retry_count: 3
-          retry_wait_time: 10
-          enable_keepalive: false
-          commit_message: Update README with latest blog posts
-          committer_username: github-actions[bot]
-          committer_email: 41898282+github-actions[bot]@users.noreply.github.com
-          skip_commit: true
+      - name: Update recent writing
+        run: |
+          set -euo pipefail
+
+          python3 - <<'PY'
+          import html
+          import re
+          import urllib.request
+          import xml.etree.ElementTree as ET
+          from email.utils import parsedate_to_datetime
+
+          readme_path = "README.md"
+          rss_url = "https://cyberbuff.dev/rss.xml"
+
+          with urllib.request.urlopen(rss_url, timeout=30) as response:
+            feed = ET.fromstring(response.read())
+
+          posts = []
+          for item in feed.findall("./channel/item")[:5]:
+            title = item.findtext("title", "").strip()
+            url = item.findtext("link", "").strip()
+            description = html.unescape(item.findtext("description", "").strip())
+            description = " ".join(description.split())
+            pub_date = item.findtext("pubDate", "").strip()
+            date = parsedate_to_datetime(pub_date).strftime("%b %-d, %Y")
+            posts.append(f"- [{title}]({url}) - {description} ({date})")
+
+          readme = open(readme_path, encoding="utf-8").read()
+          section = "#### 📜 Recent writing\n\n" + "\n".join(posts) + "\n\n---"
+          readme, replacements = re.subn(
+            r"#### 📜 Recent writing\n\n.*?\n---",
+            section,
+            readme,
+            count=1,
+            flags=re.S,
+          )
+          if replacements != 1:
+            raise SystemExit("Recent writing section not found in README.md")
+
+          open(readme_path, "w", encoding="utf-8").write(readme)
+          PY
 
       - name: Commit README updates
         env:
