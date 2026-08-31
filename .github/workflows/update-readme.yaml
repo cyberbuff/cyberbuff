@@ -1,0 +1,177 @@
+name: Update README
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 10 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Update recent projects
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+
+          humanize_time() {
+            local created_at="$1"
+            local midnight
+            local elapsed
+            local days
+            local weeks
+            local months
+            local years
+
+            midnight="$(date -u -d "${created_at}" "+%Y-%m-%d 00:00:00")"
+            elapsed="$(($(date -u +%s) - $(date -u -d "${midnight}" +%s)))"
+
+            if [[ "${elapsed}" -le 86400 ]]; then
+              echo "today"
+              return
+            fi
+
+            days="$((elapsed / 86400))"
+            if [[ "${days}" -lt 7 ]]; then
+              [[ "${days}" -eq 1 ]] && echo "1 day ago" || echo "${days} days ago"
+              return
+            fi
+
+            if [[ "${days}" -lt 30 ]]; then
+              weeks="$((days / 7))"
+              [[ "${weeks}" -eq 1 ]] && echo "1 week ago" || echo "${weeks} weeks ago"
+              return
+            fi
+
+            if [[ "${days}" -lt 365 ]]; then
+              months="$((days / 30))"
+              [[ "${months}" -eq 1 ]] && echo "1 month ago" || echo "${months} months ago"
+              return
+            fi
+
+            years="$((days / 365))"
+            [[ "${years}" -eq 1 ]] && echo "1 year ago" || echo "${years} years ago"
+          }
+
+          events="$(
+            curl -fsSL \
+              -H "Authorization: Bearer ${GH_TOKEN}" \
+              -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/users/cyberbuff/events/public?per_page=100"
+          )"
+
+          projects="$(
+            jq -rc '
+              sort_by(.created_at) | reverse | .[] |
+              if .type == "PushEvent" and .payload.ref == "refs/heads/main" then
+                {
+                  kind: "push",
+                  repo: .repo.name,
+                  url: ("https://github.com/" + .repo.name),
+                  created: .created_at
+                }
+              elif .type == "PullRequestEvent" and .payload.action == "opened" then
+                {
+                  kind: "pr",
+                  repo: .repo.name,
+                  url: ("https://github.com/" + .repo.name),
+                  created: .created_at
+                }
+              else empty end
+            ' <<< "${events}" |
+              while IFS= read -r item; do
+                kind="$(jq -r '.kind' <<< "${item}")"
+                repo="$(jq -r '.repo' <<< "${item}")"
+                created="$(jq -r '.created' <<< "${item}")"
+                meta="$(
+                  curl -fsSL \
+                    -H "Authorization: Bearer ${GH_TOKEN}" \
+                    -H "Accept: application/vnd.github+json" \
+                    "https://api.github.com/repos/${repo}"
+                )"
+
+                if [[ "${kind}" == "push" ]]; then
+                  fork="$(jq -r '.fork' <<< "${meta}")"
+                  [[ "${fork}" == "false" ]] || continue
+                fi
+
+                description="$(jq -r '.description // ""' <<< "${meta}")"
+                age="$(humanize_time "${created}")"
+                jq -rn \
+                  --arg repo "${repo}" \
+                  --arg url "https://github.com/${repo}" \
+                  --arg description "${description}" \
+                  --arg age "${age}" \
+                  '[$repo, $url, $description, $age] | @tsv'
+              done |
+              awk -F '\t' '
+                !seen[$1]++ {
+                  if ($3 == "") {
+                    print "- [" $1 "](" $2 ") (" $4 ")"
+                  } else {
+                    print "- [" $1 "](" $2 ") - " $3 " (" $4 ")"
+                  }
+                  count++
+                }
+                count == 5 { exit }
+              '
+          )"
+
+          tmp="$(mktemp)"
+          awk -v projects="${projects}" '
+            /<!-- RECENT-PROJECTS:START -->/ {
+              print
+              print projects
+              skip = 1
+              next
+            }
+            /<!-- RECENT-PROJECTS:END -->/ {
+              skip = 0
+              print
+              next
+            }
+            !skip { print }
+          ' README.md > "${tmp}"
+          mv "${tmp}" README.md
+
+      - uses: gautamkrishnar/blog-post-workflow@f177491c77670f150ab4e9b9890254d8eba4164b # 1.9.7
+        with:
+          feed_list: "https://cyberbuff.dev/rss.xml"
+          max_post_count: 5
+          date_format: "mmm d, yyyy"
+          template: "- [$title]($url) - $description ($date)$newline"
+          description_max_length: 180
+          retry_count: 3
+          retry_wait_time: 10
+          enable_keepalive: false
+          commit_message: Update README with latest blog posts
+          committer_username: github-actions[bot]
+          committer_email: 41898282+github-actions[bot]@users.noreply.github.com
+
+      - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ github.token }}
+          filename: github-metrics.svg
+          committer_message: Update GitHub metrics
+          user: cyberbuff
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/New_York
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 14
