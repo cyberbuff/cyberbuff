@@ -28,11 +28,9 @@ focus is cyber deception research, talks, and more.
 
 #### 📜 Recent writing
 
-<!-- BLOG-POST-LIST:START -->
-
-- [Living off the Orchard: AppleScript](https://cyberbuff.dev/blog/loas/) - Offensive security testing framework for macOS that provides MITRE ATT&amp;CK-mapped atomic tests using AppleScript and JXA techniques across multiple execution methods. (9 months ago)
-- [Atomic Red Team MCP](https://cyberbuff.dev/blog/atomic-red-team-mcp/) - Use Atomic Red Team MCP server to create, query, and execute atomics from Atomic Red Team (10 months ago)
-    <!-- BLOG-POST-LIST:END -->
+<!-- BLOG-POST-LIST:START -->- [Living off the Orchard: AppleScript](https://cyberbuff.dev/blog/loas/) - Offensive security testing framework for macOS that provides MITRE ATT&amp;CK-mapped atomic tests using AppleScript and JXA techniques across multiple execution methods. (Nov 27, 2025)
+- [Atomic Red Team MCP](https://cyberbuff.dev/blog/atomic-red-team-mcp/) - Use Atomic Red Team MCP server  to create, query, and execute atomics from Atomic Red Team (Oct 31, 2025)
+<!-- BLOG-POST-LIST:END -->
 
 ---
 
