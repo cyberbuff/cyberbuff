@@ -66,9 +66,9 @@ jobs:
 
           events="$(
             curl -fsSL \
-              -H "Authorization: Bearer ${PROFILE_TOKEN}" \
+              -H "Authorization: Bearer ${GH_TOKEN}" \
               -H "Accept: application/vnd.github+json" \
-              "https://api.github.com/users/cyberbuff/events?per_page=100"
+              "https://api.github.com/users/cyberbuff/events/public?per_page=100"
           )"
 
           projects="$(
@@ -96,7 +96,7 @@ jobs:
                 created="$(jq -r '.created' <<< "${item}")"
                 meta="$(
                   curl -fsSL \
-                    -H "Authorization: Bearer ${PROFILE_TOKEN}" \
+                    -H "Authorization: Bearer ${GH_TOKEN}" \
                     -H "Accept: application/vnd.github+json" \
                     "https://api.github.com/repos/${repo}"
                 )"
@@ -107,32 +107,20 @@ jobs:
                 fi
 
                 description="$(jq -r '.description // ""' <<< "${meta}")"
-                private="$(jq -r '.private' <<< "${meta}")"
                 age="$(humanize_time "${created}")"
-                if [[ "${private}" == "true" ]]; then
-                  jq -rn \
-                    --arg repo "${repo}" \
-                    --arg name "Private repository" \
-                    --arg age "${age}" \
-                    '[$repo, $name, "", "", $age] | @tsv'
-                else
-                  jq -rn \
-                    --arg repo "${repo}" \
-                    --arg name "${repo}" \
-                    --arg url "https://github.com/${repo}" \
-                    --arg description "${description}" \
-                    --arg age "${age}" \
-                    '[$repo, $name, $url, $description, $age] | @tsv'
-                fi
+                jq -rn \
+                  --arg repo "${repo}" \
+                  --arg url "https://github.com/${repo}" \
+                  --arg description "${description}" \
+                  --arg age "${age}" \
+                  '[$repo, $url, $description, $age] | @tsv'
               done |
               awk -F '\t' '
                 count < 5 && !seen[$1]++ {
                   if ($3 == "") {
-                    print "- " $2 " (" $5 ")"
-                  } else if ($4 == "") {
-                    print "- [" $2 "](" $3 ") (" $5 ")"
+                    print "- [" $1 "](" $2 ") (" $4 ")"
                   } else {
-                    print "- [" $2 "](" $3 ") - " $4 " (" $5 ")"
+                    print "- [" $1 "](" $2 ") - " $3 " (" $4 ")"
                   }
                   count++
                 }
@@ -230,6 +218,6 @@ jobs:
           plugin_languages: yes
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 14
+          plugin_languages_indepth: yes
+          plugin_languages_details: lines, bytes-size
+          commits_authoring: cyberbuff, 27735081+cyberbuff@users.noreply.github.com
