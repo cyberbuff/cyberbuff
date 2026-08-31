@@ -1,6 +1,6 @@
 # Hi there 👋
 
-I'm cyberbuff: a security researcher and developer who likes building tools that
+I'm a security researcher and developer who likes building tools that
 operators can actually use. Most of my work sits around adversary emulation,
 detection engineering, macOS security, and cyber deception.
 
