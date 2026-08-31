@@ -142,6 +142,15 @@ jobs:
           ' README.md > "${tmp}"
           mv "${tmp}" README.md
 
+          if ! git diff --quiet README.md; then
+            git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git config --global user.name "github-actions[bot]"
+            git add README.md
+            git commit -m "Update README with recent projects"
+            git remote set-url origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+            git push
+          fi
+
       - uses: gautamkrishnar/blog-post-workflow@f177491c77670f150ab4e9b9890254d8eba4164b # 1.9.7
         with:
           feed_list: "https://cyberbuff.dev/rss.xml"
@@ -158,7 +167,7 @@ jobs:
 
       - uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ github.token }}
           committer_token: ${{ github.token }}
           filename: github-metrics.svg
           committer_message: Update GitHub metrics
