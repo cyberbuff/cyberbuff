@@ -17,9 +17,9 @@ focus is cyber deception research, talks, and more.
 #### 👷 Check out what I'm currently working on
 
 <!-- RECENT-PROJECTS:START -->
-- [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE's ATT&CK. (1 day ago)
-- [cyberbuff/cyberbuff](https://github.com/cyberbuff/cyberbuff) (6 days ago)
-- [cyberbuff/atomic-red-team-mcp](https://github.com/cyberbuff/atomic-red-team-mcp) - MCP server for Atomic Red Team (6 days ago)
+- [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE's ATT&CK. (2 days ago)
+- [cyberbuff/cyberbuff](https://github.com/cyberbuff/cyberbuff) (1 week ago)
+- [cyberbuff/atomic-red-team-mcp](https://github.com/cyberbuff/atomic-red-team-mcp) - MCP server for Atomic Red Team (1 week ago)
 - [LOTTunnels/LOTTunnels.github.io](https://github.com/LOTTunnels/LOTTunnels.github.io) (1 week ago)
 - [cyberbuff/LOLPaths](https://github.com/cyberbuff/LOLPaths) - A community-maintained catalog of filesystem paths commonly containing credentials, secrets, tokens, keys, and other sensitive artifacts, with mappings for detection and security validation. (1 week ago)
 <!-- RECENT-PROJECTS:END -->
