@@ -17,9 +17,9 @@ focus is cyber deception research, talks, and more.
 #### 👷 Check out what I'm currently working on
 
 <!-- RECENT-PROJECTS:START -->
-- [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE's ATT&CK. (4 days ago)
-- [cyberbuff/cyberbuff](https://github.com/cyberbuff/cyberbuff) (1 week ago)
-- [cyberbuff/atomic-red-team-mcp](https://github.com/cyberbuff/atomic-red-team-mcp) - MCP server for Atomic Red Team (1 week ago)
+- [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE's ATT&CK. (5 days ago)
+- [cyberbuff/cyberbuff](https://github.com/cyberbuff/cyberbuff) (2 weeks ago)
+- [cyberbuff/atomic-red-team-mcp](https://github.com/cyberbuff/atomic-red-team-mcp) - MCP server for Atomic Red Team (2 weeks ago)
 - [LOTTunnels/LOTTunnels.github.io](https://github.com/LOTTunnels/LOTTunnels.github.io) (2 weeks ago)
 - [cyberbuff/LOLPaths](https://github.com/cyberbuff/LOLPaths) - A community-maintained catalog of filesystem paths commonly containing credentials, secrets, tokens, keys, and other sensitive artifacts, with mappings for detection and security validation. (2 weeks ago)
 <!-- RECENT-PROJECTS:END -->
@@ -28,8 +28,8 @@ focus is cyber deception research, talks, and more.
 
 #### 📜 Recent writing
 
-- [Living off the Orchard: AppleScript](https://cyberbuff.dev/blog/loas/) - Offensive security testing framework for macOS that provides MITRE ATT&CK-mapped atomic tests using AppleScript and JXA techniques across multiple execution methods. (Nov 27, 2025)
-- [Atomic Red Team MCP](https://cyberbuff.dev/blog/atomic-red-team-mcp/) - Use Atomic Red Team MCP server to create, query, and execute atomics from Atomic Red Team (Oct 31, 2025)
+- [Living off the Orchard: AppleScript](https://cyberbuff.dev/blog/loas) - Offensive security testing framework for macOS that provides MITRE ATT&CK-mapped atomic tests using AppleScript and JXA techniques across multiple execution methods. (Nov 27, 2025)
+- [Atomic Red Team MCP](https://cyberbuff.dev/blog/atomic-red-team-mcp) - Use Atomic Red Team MCP server to create, query, and execute atomics from Atomic Red Team (Oct 31, 2025)
 
 ---
 
