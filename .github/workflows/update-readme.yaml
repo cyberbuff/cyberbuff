@@ -65,21 +65,26 @@ jobs:
           }
 
           events="$(
-            curl -fsSL \
-              -H "Authorization: Bearer ${GH_TOKEN}" \
-              -H "Accept: application/vnd.github+json" \
-              "https://api.github.com/users/cyberbuff/events/public?per_page=100"
+            for page in 1 2 3; do
+              curl -fsSL \
+                -H "Authorization: Bearer ${GH_TOKEN}" \
+                -H "Accept: application/vnd.github+json" \
+                "https://api.github.com/users/cyberbuff/events/public?per_page=100&page=${page}"
+            done | jq -s 'add'
           )"
 
           projects="$(
             jq -rc '
-              sort_by(.created_at) | reverse | .[] |
-              select(.repo.name != "cyberbuff/cyberbuff") |
-              select(
-                (.type == "PushEvent" and .payload.ref == "refs/heads/main") or
-                (.type == "PullRequestEvent" and .payload.action == "opened")
-              ) |
-              { repo: .repo.name, created: .created_at }
+              [ .[] |
+                select(.repo.name != "cyberbuff/cyberbuff") |
+                select(
+                  (.type == "PushEvent" and .payload.ref == "refs/heads/main") or
+                  (.type == "PullRequestEvent" and .payload.action == "opened")
+                ) |
+                { repo: .repo.name, created: .created_at }
+              ] |
+              group_by(.repo) | map(max_by(.created)) |
+              sort_by(.created) | reverse | .[]
             ' <<< "${events}" |
               while IFS= read -r item; do
                 repo="$(jq -r '.repo' <<< "${item}")"
@@ -104,7 +109,7 @@ jobs:
                   '[$repo, $url, $description, $age] | @tsv'
               done |
               awk -F '\t' '
-                count < 5 && !seen[$1]++ {
+                count < 5 {
                   if ($3 == "") {
                     print "- [" $1 "](" $2 ") (" $4 ")"
                   } else {
