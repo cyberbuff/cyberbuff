@@ -74,6 +74,7 @@ jobs:
           projects="$(
             jq -rc '
               sort_by(.created_at) | reverse | .[] |
+              select(.repo.name != "cyberbuff/cyberbuff") |
               if .type == "PushEvent" and .payload.ref == "refs/heads/main" then
                 {
                   kind: "push",
