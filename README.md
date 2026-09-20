@@ -17,10 +17,9 @@ focus is cyber deception research, talks, and more.
 #### 👷 Check out what I'm currently working on
 
 <!-- RECENT-PROJECTS:START -->
-- [LOTTunnels/LOTTunnels.github.io](https://github.com/LOTTunnels/LOTTunnels.github.io) (3 days ago)
-- [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE's ATT&CK. (1 week ago)
-- [cyberbuff/cyberbuff](https://github.com/cyberbuff/cyberbuff) (2 weeks ago)
-- [cyberbuff/atomic-red-team-mcp](https://github.com/cyberbuff/atomic-red-team-mcp) - MCP server for Atomic Red Team (2 weeks ago)
+- [cyberbuff/LOAS](https://github.com/cyberbuff/LOAS) - Living Off the Orchard: Apple Script is a library of AppleScript and JXA tests mapped to the MITRE ATT&CK® framework (today)
+- [infosecB/LOOBins](https://github.com/infosecB/LOOBins) - Living Off the Orchard: macOS Binaries (LOOBins) is designed to provide detailed information on various built-in "living off the land" macOS binaries and how they can be used by threat actors for malicious purposes.  (today)
+- [cyberbuff/LOOBins](https://github.com/cyberbuff/LOOBins) - Living Off the Orchard: macOS Binaries (LOOBins) is designed to provide detailed information on various built-in "living off the land" macOS binaries and how they can be used by threat actors for malicious purposes.  (today)
 <!-- RECENT-PROJECTS:END -->
 
 ---
