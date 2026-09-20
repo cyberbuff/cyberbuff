@@ -75,24 +75,13 @@ jobs:
             jq -rc '
               sort_by(.created_at) | reverse | .[] |
               select(.repo.name != "cyberbuff/cyberbuff") |
-              if .type == "PushEvent" and .payload.ref == "refs/heads/main" then
-                {
-                  kind: "push",
-                  repo: .repo.name,
-                  url: ("https://github.com/" + .repo.name),
-                  created: .created_at
-                }
-              elif .type == "PullRequestEvent" and .payload.action == "opened" then
-                {
-                  kind: "pr",
-                  repo: .repo.name,
-                  url: ("https://github.com/" + .repo.name),
-                  created: .created_at
-                }
-              else empty end
+              select(
+                (.type == "PushEvent" and .payload.ref == "refs/heads/main") or
+                (.type == "PullRequestEvent" and .payload.action == "opened")
+              ) |
+              { repo: .repo.name, created: .created_at }
             ' <<< "${events}" |
               while IFS= read -r item; do
-                kind="$(jq -r '.kind' <<< "${item}")"
                 repo="$(jq -r '.repo' <<< "${item}")"
                 created="$(jq -r '.created' <<< "${item}")"
                 meta="$(
@@ -102,10 +91,8 @@ jobs:
                     "https://api.github.com/repos/${repo}"
                 )"
 
-                if [[ "${kind}" == "push" ]]; then
-                  fork="$(jq -r '.fork' <<< "${meta}")"
-                  [[ "${fork}" == "false" ]] || continue
-                fi
+                fork="$(jq -r '.fork' <<< "${meta}")"
+                [[ "${fork}" == "false" ]] || continue
 
                 description="$(jq -r '.description // ""' <<< "${meta}")"
                 age="$(humanize_time "${created}")"
