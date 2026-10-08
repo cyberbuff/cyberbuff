@@ -17,7 +17,7 @@ focus is cyber deception research, talks, and more.
 #### 👷 Check out what I'm currently working on
 
 <!-- RECENT-PROJECTS:START -->
-- [LOTTunnels/LOTTunnels.github.io](https://github.com/LOTTunnels/LOTTunnels.github.io) (1 week ago)
+- [LOTTunnels/LOTTunnels.github.io](https://github.com/LOTTunnels/LOTTunnels.github.io) (today)
 - [cyberbuff/LOAS](https://github.com/cyberbuff/LOAS) - Living Off the Orchard: Apple Script is a library of AppleScript and JXA tests mapped to the MITRE ATT&CK® framework (2 weeks ago)
 - [infosecB/LOOBins](https://github.com/infosecB/LOOBins) - Living Off the Orchard: macOS Binaries (LOOBins) is designed to provide detailed information on various built-in "living off the land" macOS binaries and how they can be used by threat actors for malicious purposes.  (2 weeks ago)
 - [redcanaryco/atomic-red-team](https://github.com/redcanaryco/atomic-red-team) - Small and highly portable detection tests based on MITRE's ATT&CK. (4 weeks ago)
@@ -27,7 +27,10 @@ focus is cyber deception research, talks, and more.
 
 #### 📜 Recent writing
 
-- [Living off the Orchard: AppleScript](https://cyberbuff.dev/blog/loas) - Offensive security testing framework for macOS that provides MITRE ATT&CK-mapped atomic tests using AppleScript and JXA techniques across multiple execution methods. (Nov 27, 2025)
+- [Living Off the Orchard: AppleScript](https://cyberbuff.dev/blog/loas) - Offensive security testing framework for macOS that provides MITRE ATT&CK-mapped atomic tests using AppleScript and JXA techniques across multiple execution methods. (Nov 27, 2025)
+- [Execution Methods](https://cyberbuff.dev/blog/loas/execution-methods) - Learn how to execute LOAS tests using various methods and understand how each creates different detection telemetry. (Nov 27, 2025)
+- [macOS Security Primer](https://cyberbuff.dev/blog/loas/primer) - Understanding Living Off the Orchard attacks and why AppleScript/JXA techniques require specialized testing frameworks for macOS security. (Nov 27, 2025)
+- [Claude becomes C2](https://cyberbuff.dev/blog/atomic-red-team-mcp/claude-becomes-c2) - Breaking Everything, Everywhere, All at Once (Nov 4, 2025)
 - [Atomic Red Team MCP](https://cyberbuff.dev/blog/atomic-red-team-mcp) - Use Atomic Red Team MCP server to create, query, and execute atomics from Atomic Red Team (Oct 31, 2025)
 
 ---
