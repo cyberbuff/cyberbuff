@@ -17,8 +17,8 @@ focus is cyber deception research, talks, and more.
 #### 👷 Check out what I'm currently working on
 
 <!-- RECENT-PROJECTS:START -->
-- [LOTTunnels/LOTTunnels.github.io](https://github.com/LOTTunnels/LOTTunnels.github.io) (today)
-- [infosecB/LOOBins](https://github.com/infosecB/LOOBins) - Living Off the Orchard: macOS Binaries (LOOBins) is designed to provide detailed information on various built-in "living off the land" macOS binaries and how they can be used by threat actors for malicious purposes.  (1 day ago)
+- [LOTTunnels/LOTTunnels.github.io](https://github.com/LOTTunnels/LOTTunnels.github.io) (1 day ago)
+- [infosecB/LOOBins](https://github.com/infosecB/LOOBins) - Living Off the Orchard: macOS Binaries (LOOBins) is designed to provide detailed information on various built-in "living off the land" macOS binaries and how they can be used by threat actors for malicious purposes.  (2 days ago)
 <!-- RECENT-PROJECTS:END -->
 
 ---
