@@ -17,7 +17,7 @@ focus is cyber deception research, talks, and more.
 #### 👷 Check out what I'm currently working on
 
 <!-- RECENT-PROJECTS:START -->
-- [magicsword-io/LOLRMM](https://github.com/magicsword-io/LOLRMM) - LotL RMM (1 month ago)
+
 <!-- RECENT-PROJECTS:END -->
 
 ---
